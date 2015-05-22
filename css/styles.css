@@ -8,11 +8,12 @@ YOUR STYLES
 }
 
 body{
-	/*background-image: url("../img/FRD-DS-00253.jpg");*/
+	background-image: url("../img/skull.png");
   background-color: black;
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 50%;
+  background-position: left top;
+  background-size: 47%;
+  background-attachment: fixed;
 
   color: white;
   font-family: 'Raleway', sans-serif; font-weight 300;
@@ -23,11 +24,14 @@ body{
 	margin: 30px auto;
 }
 
+.grid-container{
+    margin-left: 600px;
+}
+
 video{
   width: 100%;
   border: solid 3px #33CCFF;
 }
-
 
 
 h1, h3{
@@ -36,12 +40,12 @@ h1, h3{
 }
 
 .bar {
-  height: 5em;
+  height: 4em;
   padding-top: 2em;
   background: black;
   border-top: 3px solid #33CCFF;
   border-bottom: 3px solid #33CCFF;
-  margin-top: -100px;
+  margin-top: -90px;
 }
 
 h1.ontop {
